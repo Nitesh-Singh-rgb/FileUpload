@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/reast/node_modules
+/reast/.pnp
+/reast/.pnp.js
+
+# testing
+/reast/coverage
+
+# production
+/reast//build
+
+# misc
+.DS_Store
+/reast/.env.local
+/reast/.env.development.local
+/reast/.env.test.local
+/reast/.env.production.local
+
+/reast/npm-debug.log*
+/reast/yarn-debug.log*
+/reast/yarn-error.log*
